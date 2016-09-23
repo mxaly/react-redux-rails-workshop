@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer:
 ## Installation
 
 ```sh
-$ make
+$ npm run make
 ```
 
 ## Running / Development
