@@ -68,7 +68,8 @@
     "rwr-node-server": "forever -o log/rwr-server-out.log -e log/rwr-server-err.log forever/production.json",
     "start": "webpack -w --config webpack/dev.config.js",
     "start-hot-dev": "webpack-dev-server --hot --inline --config webpack/hot-dev.config.js",
-    "test": "ava app/react/**/*.spec.js"
+    "test": "ava app/react/**/*.spec.js",
+    "run-make": "make"
   },
   "license": "",
   "engines": {
